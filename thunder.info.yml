@@ -13,6 +13,7 @@ dependencies:
   - block
   - breakpoint
   - ckeditor
+  - content_lock
   - contextual
   - menu_link_content
   - datetime
