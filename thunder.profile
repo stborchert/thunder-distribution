@@ -280,6 +280,7 @@ function thunder_themes_installed($theme_list) {
  * Implements hook_modules_installed().
  */
 function thunder_modules_installed($modules) {
+  \Drupal::service('config.installer')->installOptionalConfig();
 
   // Move fields into form display.
   if (in_array('ivw_integration', $modules)) {
