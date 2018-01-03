@@ -76,9 +76,6 @@
                 "Move File/Image media type into Standard once Media is stable": "https://www.drupal.org/files/issues/2883813-27.patch",
                 "Add action support to Media module": "https://www.drupal.org/files/issues/2877383-39.patch",
                 "Recursive rebuild caused by installing admin_toolbar_tools module": "https://www.drupal.org/files/issues/2930715-2-4.patch"
-            },
-            "drupal/media_entity": {
-                "Action support check shouldn't fail if 2877383 is applied": "https://www.drupal.org/files/issues/2927490-5.patch"
             }
         }
     },
